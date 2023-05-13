@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
-import Nav from './components/home/Nav';
+import Nav from './components/Nav';
+import Footer from './components/Footer';
 import Banner from './components/home/Banner';
 import Products from './components/home/Products';
 import Pricing from './components/home/Pricing';
@@ -28,6 +29,7 @@ function App() {
             <Refer />
             <Testimonials />
         </main>
+        <Footer />
       </main>
     </>
   );
